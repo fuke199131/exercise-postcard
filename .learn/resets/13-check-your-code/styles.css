@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	margin: 0;
+	padding: 0;
+}
+
+.postcard {
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 20px;
+	width: 350px;
+	height: 250px;
+	margin: auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.divIzquierdo {
+	text-align: Left;
+}
+
+.divDerecho {
+	text-align: Right;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 12px;
+	line-height: 1;
+	color: #555;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
